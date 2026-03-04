@@ -1,0 +1,104 @@
+{
+  "input_csv": "outputs/day1/cleaned_modeling.csv",
+  "target_col": "repairability_bin",
+  "group_col": "supplier_region",
+  "n_rows_used": 200,
+  "n_features": 7,
+  "n_classes": 3,
+  "class_distribution": {
+    "Medium": 113,
+    "Low": 63,
+    "High": 24
+  },
+  "dropped_id_like_feature_cols": [
+    "product_id",
+    "component_id"
+  ],
+  "models": {
+    "logreg": {
+      "accuracy": 0.975,
+      "macro_f1": 0.9622895622895623,
+      "classification_report": {
+        "High": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1-score": 0.9090909090909091,
+          "support": 5.0
+        },
+        "Low": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 12.0
+        },
+        "Medium": {
+          "precision": 1.0,
+          "recall": 0.9565217391304348,
+          "f1-score": 0.9777777777777777,
+          "support": 23.0
+        },
+        "accuracy": 0.975,
+        "macro avg": {
+          "precision": 0.9444444444444445,
+          "recall": 0.9855072463768115,
+          "f1-score": 0.9622895622895623,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9791666666666667,
+          "recall": 0.975,
+          "f1-score": 0.9758585858585859,
+          "support": 40.0
+        }
+      },
+      "labels_order": [
+        "High",
+        "Low",
+        "Medium"
+      ]
+    },
+    "rf": {
+      "accuracy": 0.95,
+      "macro_f1": 0.9027777777777778,
+      "classification_report": {
+        "High": {
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1-score": 0.75,
+          "support": 5.0
+        },
+        "Low": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 12.0
+        },
+        "Medium": {
+          "precision": 0.92,
+          "recall": 1.0,
+          "f1-score": 0.9583333333333334,
+          "support": 23.0
+        },
+        "accuracy": 0.95,
+        "macro avg": {
+          "precision": 0.9733333333333333,
+          "recall": 0.8666666666666667,
+          "f1-score": 0.9027777777777778,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.954,
+          "recall": 0.95,
+          "f1-score": 0.9447916666666668,
+          "support": 40.0
+        }
+      },
+      "labels_order": [
+        "High",
+        "Low",
+        "Medium"
+      ]
+    }
+  },
+  "selected_best_model": "logreg"
+}

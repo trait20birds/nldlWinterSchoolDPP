@@ -1,0 +1,7 @@
+{
+  "recommended_drop_for_synthcity": [
+    "product_id",
+    "component_id"
+  ],
+  "output_synthcity_input_csv": "outputs/day1/cleaned_synthcity_input.csv"
+}

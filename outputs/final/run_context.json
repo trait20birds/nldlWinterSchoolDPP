@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "input_csv": "outputs/day1/cleaned_synthcity_input.csv",
+  "snapshot_csv": "data/real_train_snapshot.csv",
+  "real_train_csv": "data/real_train.csv",
+  "real_test_csv": "data/real_test.csv",
+  "rows_all": 200,
+  "rows_train": 160,
+  "rows_test": 40,
+  "columns": [
+    "component_type",
+    "material_main",
+    "mass_g",
+    "recycled_content_pct",
+    "supplier_region",
+    "compliance_rohs",
+    "contains_hazardous_substance",
+    "repairability_bin"
+  ],
+  "target_col": "repairability_bin",
+  "group_col": "supplier_region"
+}

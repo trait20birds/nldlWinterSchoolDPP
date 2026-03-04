@@ -1,0 +1,12 @@
+{
+  "input_csv": "outputs/day1/cleaned_synthcity_input.csv",
+  "output_csv": "outputs/day1/synthcity_generated_privbayes.csv",
+  "plugin": "privbayes",
+  "plugin_kwargs": {},
+  "target_col": "repairability_bin",
+  "drop_cols_applied": [],
+  "input_rows": 200,
+  "input_columns_after_drop": 8,
+  "generated_rows": 50,
+  "generated_columns": 8
+}

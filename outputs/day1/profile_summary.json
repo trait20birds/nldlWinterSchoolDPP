@@ -1,0 +1,51 @@
+{
+  "input_csv": "data/my_bom_dpp.csv",
+  "original_shape": {
+    "rows": 200,
+    "cols": 11
+  },
+  "cleaned_shape": {
+    "rows": 200,
+    "cols": 10
+  },
+  "duplicates_removed": 0,
+  "columns_renamed_from": [
+    "Product ID",
+    "Component ID",
+    "component_type",
+    "material_main",
+    "mass_g",
+    "recycled_content_pct",
+    "supplier_region",
+    "supplier_name",
+    "compliance_rohs",
+    "contains_hazardous_substance",
+    "repairability_bin"
+  ],
+  "columns_final": [
+    "product_id",
+    "component_id",
+    "component_type",
+    "material_main",
+    "mass_g",
+    "recycled_content_pct",
+    "supplier_region",
+    "compliance_rohs",
+    "contains_hazardous_substance",
+    "repairability_bin"
+  ],
+  "target_col": "repairability_bin",
+  "group_col": "supplier_region",
+  "drop_cols_applied": [
+    "supplier_name"
+  ],
+  "hash_cols_applied": [
+    "product_id",
+    "component_id"
+  ],
+  "range_flags": {},
+  "recommended_drop_for_synthcity": [
+    "product_id",
+    "component_id"
+  ]
+}

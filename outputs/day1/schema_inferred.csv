@@ -1,0 +1,11 @@
+column,dtype,non_null_count,missing_count,missing_pct,nunique_non_null,inferred_role,nunique_ratio,is_id_like,is_target,is_group
+product_id,object,200,0,0.0,50,text_or_id,0.25,True,False,False
+component_id,object,200,0,0.0,200,text_or_id,1.0,True,False,False
+component_type,string,200,0,0.0,4,categorical,0.02,False,False,False
+material_main,string,200,0,0.0,5,categorical,0.025,False,False,False
+mass_g,float64,200,0,0.0,196,numeric,0.98,False,False,False
+recycled_content_pct,float64,200,0,0.0,154,numeric,0.77,False,False,False
+supplier_region,string,200,0,0.0,4,categorical,0.02,False,False,True
+compliance_rohs,int64,200,0,0.0,2,binary,0.01,False,False,False
+contains_hazardous_substance,int64,200,0,0.0,2,binary,0.01,False,False,False
+repairability_bin,string,200,0,0.0,3,categorical,0.015,False,True,False

@@ -1,0 +1,8 @@
+{
+  "model": "tvae",
+  "group_col": "supplier_region",
+  "group_proportion_tvd": 0.08124999999999999,
+  "mean_group_label_distribution_l1": 0.3250226172103667,
+  "group_macro_f1_gap_max_minus_min": 0.4285714285714285,
+  "group_metrics_csv": "outputs/day2/fairness/group_metrics_tvae.csv"
+}
