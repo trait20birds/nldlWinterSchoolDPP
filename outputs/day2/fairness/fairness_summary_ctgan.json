@@ -1,0 +1,8 @@
+{
+  "model": "ctgan",
+  "group_col": "supplier_region",
+  "group_proportion_tvd": 0.14375,
+  "mean_group_label_distribution_l1": 0.3090443816822136,
+  "group_macro_f1_gap_max_minus_min": 0.2863756613756614,
+  "group_metrics_csv": "outputs/day2/fairness/group_metrics_ctgan.csv"
+}

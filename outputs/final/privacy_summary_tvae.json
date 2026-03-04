@@ -1,0 +1,18 @@
+{
+  "model": "tvae",
+  "exact_overlap_with_real_train_rate": 0.0,
+  "syn_to_real_nn_distance": {
+    "min": 0.10548787371407366,
+    "p01": 0.1870545782591959,
+    "median": 1.2797192001153075,
+    "mean": 1.1144394085156715
+  },
+  "real_to_real_nn_distance": {
+    "min": 0.28878085360607536,
+    "p01": 0.3130066399933231,
+    "median": 1.45150983836287,
+    "mean": 1.3785538867996958
+  },
+  "suspiciously_close_rate_vs_real_real_p01": 0.075,
+  "rare_combo_leakage_rate": 0.6875
+}

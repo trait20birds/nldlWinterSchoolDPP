@@ -1,0 +1,18 @@
+{
+  "model": "privbayes",
+  "exact_overlap_with_real_train_rate": 0.0,
+  "syn_to_real_nn_distance": {
+    "min": 0.07199022882748154,
+    "p01": 0.23961354205929788,
+    "median": 1.7527429257537834,
+    "mean": 1.7736599729680325
+  },
+  "real_to_real_nn_distance": {
+    "min": 0.28878085360607536,
+    "p01": 0.3130066399933231,
+    "median": 1.45150983836287,
+    "mean": 1.3785538867996958
+  },
+  "suspiciously_close_rate_vs_real_real_p01": 0.03125,
+  "rare_combo_leakage_rate": 0.55
+}

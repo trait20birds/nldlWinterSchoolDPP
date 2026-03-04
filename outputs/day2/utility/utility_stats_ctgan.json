@@ -1,0 +1,100 @@
+{
+  "model": "ctgan",
+  "numeric_distribution_stats": {
+    "mass_g": {
+      "real_mean": 48.17787499999999,
+      "syn_mean": 41.52717900357815,
+      "real_std": 18.57291699681125,
+      "syn_std": 11.994965418674322,
+      "ks_stat": 0.275,
+      "ks_pvalue": 9.880579890713175e-06
+    },
+    "recycled_content_pct": {
+      "real_mean": 30.048749999999995,
+      "syn_mean": 22.116452140026354,
+      "real_std": 21.19494418027638,
+      "syn_std": 16.03268270071875,
+      "ks_stat": 0.175,
+      "ks_pvalue": 0.014747878069690948
+    },
+    "compliance_rohs": {
+      "real_mean": 0.85625,
+      "syn_mean": 0.95625,
+      "real_std": 0.3519375838029829,
+      "syn_std": 0.20518054635801514,
+      "ks_stat": 0.1,
+      "ks_pvalue": 0.40149127523317635
+    },
+    "contains_hazardous_substance": {
+      "real_mean": 0.11875,
+      "syn_mean": 0.08125,
+      "real_std": 0.32450978995029567,
+      "syn_std": 0.27407649393609457,
+      "ks_stat": 0.0375,
+      "ks_pvalue": 0.9998862734255917
+    }
+  },
+  "categorical_distribution_stats": {
+    "component_type": {
+      "tvd": 0.20624999999999996,
+      "real_top": {
+        "pcb": 0.29375,
+        "connector": 0.25625,
+        "cell": 0.2375,
+        "housing": 0.2125
+      },
+      "syn_top": {
+        "pcb": 0.38125,
+        "cell": 0.35625,
+        "connector": 0.1375,
+        "housing": 0.125
+      }
+    },
+    "material_main": {
+      "tvd": 0.18125000000000002,
+      "real_top": {
+        "copper": 0.23125,
+        "aluminum": 0.225,
+        "plastic": 0.1875,
+        "glass": 0.18125,
+        "steel": 0.175
+      },
+      "syn_top": {
+        "steel": 0.275,
+        "plastic": 0.26875,
+        "copper": 0.19375,
+        "aluminum": 0.15625,
+        "glass": 0.10625
+      }
+    },
+    "supplier_region": {
+      "tvd": 0.14375,
+      "real_top": {
+        "EU": 0.43125,
+        "APAC": 0.2375,
+        "NA": 0.2375,
+        "Other": 0.09375
+      },
+      "syn_top": {
+        "EU": 0.35625,
+        "APAC": 0.35,
+        "NA": 0.26875,
+        "Other": 0.025
+      }
+    },
+    "repairability_bin": {
+      "tvd": 0.09374999999999997,
+      "real_top": {
+        "Medium": 0.5625,
+        "Low": 0.31875,
+        "High": 0.11875
+      },
+      "syn_top": {
+        "Medium": 0.51875,
+        "Low": 0.4125,
+        "High": 0.06875
+      }
+    }
+  },
+  "numeric_correlation_mae": 0.06908509198006929
+}

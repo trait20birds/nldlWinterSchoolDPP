@@ -1,0 +1,8 @@
+{
+  "model": "privbayes",
+  "group_col": "supplier_region",
+  "group_proportion_tvd": 0.06250000000000001,
+  "mean_group_label_distribution_l1": 0.10832654006067996,
+  "group_macro_f1_gap_max_minus_min": 0.2633986928104576,
+  "group_metrics_csv": "outputs/day2/fairness/group_metrics_privbayes.csv"
+}

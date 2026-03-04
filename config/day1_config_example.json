@@ -1,0 +1,11 @@
+{
+  "input_csv": "data/my_bom_dpp.csv",
+  "target_col": "repairability_bin",
+  "group_col": "supplier_region",
+  "drop_cols": ["supplier_name", "partner_internal_id"],
+  "hash_cols": ["product_id", "component_id"],
+  "suggested_numeric_cols": ["mass_g", "recycled_content_pct", "co2e_kg"],
+  "suggested_categorical_cols": ["product_family", "component_type", "material_main", "supplier_region"],
+  "suggested_binary_cols": ["compliance_rohs", "contains_critical_raw_material"],
+  "notes": "Use one row = one BOM component/item for Day 1. Keep it flat and 10-25 columns."
+}

@@ -1,0 +1,30 @@
+{
+  "plugins": [
+    "ddpm",
+    "timegan",
+    "ctgan",
+    "dpgan",
+    "dummy_sampler",
+    "rtvae",
+    "image_adsgan",
+    "aim",
+    "bayesian_network",
+    "decaf",
+    "arf",
+    "radialgan",
+    "uniform_sampler",
+    "timevae",
+    "privbayes",
+    "survival_nflow",
+    "survae",
+    "survival_gan",
+    "tvae",
+    "nflow",
+    "pategan",
+    "survival_ctgan",
+    "adsgan",
+    "fflows",
+    "image_cgan",
+    "marginal_distributions"
+  ]
+}

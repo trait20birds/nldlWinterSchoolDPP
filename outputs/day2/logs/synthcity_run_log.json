@@ -1,0 +1,86 @@
+{
+  "selected_models": [
+    "ctgan",
+    "tvae",
+    "privbayes"
+  ],
+  "model_runs": [
+    {
+      "model": "ctgan",
+      "plugin_kwargs": {
+        "n_iter": 120
+      },
+      "fit_seconds": 3.388970458006952,
+      "generate_1x_seconds": 0.022810333990491927,
+      "generate_5x_seconds": 0.027604667004197836,
+      "output_1x_csv": "outputs/day2/synthetic/ctgan_1x.csv",
+      "output_5x_csv": "outputs/day2/synthetic/ctgan_5x.csv"
+    },
+    {
+      "model": "tvae",
+      "plugin_kwargs": {
+        "n_iter": 120
+      },
+      "fit_seconds": 3.4312064580008155,
+      "generate_1x_seconds": 0.024323416990227997,
+      "generate_5x_seconds": 0.043983958996250294,
+      "output_1x_csv": "outputs/day2/synthetic/tvae_1x.csv",
+      "output_5x_csv": "outputs/day2/synthetic/tvae_5x.csv"
+    },
+    {
+      "model": "privbayes",
+      "plugin_kwargs": {
+        "epsilon": 1.0
+      },
+      "fit_seconds": 0.387808708997909,
+      "generate_1x_seconds": 0.03027129199472256,
+      "generate_5x_seconds": 0.10803237499203533,
+      "output_1x_csv": "outputs/day2/synthetic/privbayes_1x.csv",
+      "output_5x_csv": "outputs/day2/synthetic/privbayes_5x.csv"
+    }
+  ],
+  "errors": [],
+  "winner": "tvae",
+  "trtr_metrics": {
+    "accuracy": 0.975,
+    "macro_f1": 0.9622895622895623,
+    "classification_report": {
+      "High": {
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1-score": 0.9090909090909091,
+        "support": 5.0
+      },
+      "Low": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "Medium": {
+        "precision": 1.0,
+        "recall": 0.9565217391304348,
+        "f1-score": 0.9777777777777777,
+        "support": 23.0
+      },
+      "accuracy": 0.975,
+      "macro avg": {
+        "precision": 0.9444444444444445,
+        "recall": 0.9855072463768115,
+        "f1-score": 0.9622895622895623,
+        "support": 40.0
+      },
+      "weighted avg": {
+        "precision": 0.9791666666666667,
+        "recall": 0.975,
+        "f1-score": 0.9758585858585859,
+        "support": 40.0
+      }
+    },
+    "labels": [
+      "High",
+      "Low",
+      "Medium"
+    ]
+  }
+}
